@@ -16,9 +16,9 @@ OR
 - Put the FooExtension folder into `C:\Users\<user>\Documents\Architect\Extensions`
 
 ### How to create your own extension
-1. Follow the guide for creating new package / or just copy the FooExtension folder
+1. **Follow the guide for creating new package / or just copy the FooExtension folder**
 Notice that SA extension is 2 folders deep: `<extensionName>/<version>/<actualfiles>`
-2. Put your files into the extension folder.
+2. **Put your files into the extension folder.**
  
  Put the class files into the folder src: `src/SpecialPanel.js` 
  
@@ -28,7 +28,8 @@ Notice that SA extension is 2 folders deep: `<extensionName>/<version>/<actualfi
  `resources/sencha.png` 
  `resources/special.js`
  
-3. Now we need to specify everything in the `package.json` in the root folder
+3. **Now we need to specify everything in the `package.json` in the root folder**
+Add these extra objects:
 ```
 "architect": {
     "compatFrameworks": [
@@ -100,7 +101,7 @@ We also want our 3rd party libararies or some helper scripts just anything:
 }],
 ```
 
-4. The last thing we need to do is to write definitions for SA toolbox.
+4. **The last thing we need to do is to write definitions for SA toolbox.**
 - Create folder architect in the package
 - Put inside a file `SpecialPanel.Definition.js`
 
