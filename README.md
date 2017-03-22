@@ -129,3 +129,5 @@ We also want our 3rd party libararies or some helper scripts just anything:
 
 
 ## You will find all the other useful information in the linked guides.
+
+![ExampleInside SA tag](https://raw.githubusercontent.com/petrvecera/SenchaArchitect-aux/master/SA.png)
