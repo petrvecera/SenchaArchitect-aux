@@ -12,4 +12,5 @@ ext/
 modern.json
 modern.jsonp
 resources/sass/.sass-cache/
+.idea
 
