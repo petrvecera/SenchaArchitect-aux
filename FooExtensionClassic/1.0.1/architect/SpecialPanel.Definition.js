@@ -29,5 +29,13 @@
         type: 'number',
         hidden: false,
         initialValue: 585
+    },{
+        name: 'myFunction',
+        type: 'function',
+        params: [{
+            name: 'first'
+        },{
+            name: 'second'
+        }]
     }]
 }
