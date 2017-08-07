@@ -1,0 +1,82 @@
+{
+    "name": "FooExtension",
+    "namespace": "FooExtension",
+    "type": "code",
+    "creator": "Petr Vecera, Sencha Inc.",
+    "summary": "This is example extension for Sencha Architect",
+    "detailedDescription": "The extension is using custom CSS and custom JS file",
+    "version": "1.0.2",
+    "compatVersion": "1.0.0",
+    "architect": {
+        "compatFrameworks": [
+            "ext62",
+            "ext65"
+        ],
+        "classes": [
+            {
+                "definition": "SpecialPanel.Definition.js",
+                "className": "Ext.ux.SpecialPanel",
+                "js": [
+                    "SpecialPanel.js"
+                ]
+            },
+            {
+                "definition": "SpecialTreePanel.Definition.js",
+                "className": "Ext.ux.MySpecialTreePanel",
+                "js": [
+                    "SpecialTreePanel.js"
+                ]
+            }
+        ]
+    },
+    "css": [
+        {
+            "path": "resources/css/customPanel.css"
+        }
+    ],
+	"js": [{
+      "path": "resources/special.js",
+      "bundle": true
+    }],
+
+    "format": "1",
+    "slicer": {
+        "js": [
+            {
+                "path": "${package.dir}/sass/example/custom.js",
+                "isWidgetManifest": true
+            }
+        ]
+    },
+    "output": "${package.dir}/build",
+    "local": true,
+    "sass": {
+        "namespace": "FooExtension",
+        "etc": [
+            "${package.dir}/sass/etc/all.scss",
+            "${package.dir}/${toolkit.name}/sass/etc/all.scss"
+        ],
+        "var": [
+            "${package.dir}/sass/var",
+            "${package.dir}/${toolkit.name}/sass/var"
+        ],
+        "src": [
+            "${package.dir}/sass/src",
+            "${package.dir}/${toolkit.name}/sass/src"
+        ]
+    },
+    "classpath": [
+        "${package.dir}/src",
+        "${package.dir}/${toolkit.name}/src"
+    ],
+    "overrides": [
+        "${package.dir}/overrides",
+        "${package.dir}/${toolkit.name}/overrides"
+    ],
+    "example": {
+        "path": [
+            "${package.dir}/examples"
+        ]
+    },
+    "requires": []
+}
