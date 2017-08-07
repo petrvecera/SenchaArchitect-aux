@@ -1,2 +1,0 @@
-# FooExtension - Read Me
-
