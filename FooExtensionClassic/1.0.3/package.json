@@ -5,7 +5,7 @@
     "creator": "Petr Vecera, Sencha Inc.",
     "summary": "This is example extension for Sencha Architect",
     "detailedDescription": "The extension is using custom CSS and custom JS file",
-    "version": "1.0.2",
+    "version": "1.0.3",
     "compatVersion": "1.0.0",
     "architect": {
         "compatFrameworks": [

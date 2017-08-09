@@ -1,6 +1,6 @@
 Ext.define('Ext.ux.MySpecialTreePanel', {
     extend: 'Ext.tree.Panel',
-    alias: 'widget.mytreepanel',
+    alias: 'widget.myspecialtreepanel',
 
     requires: [
         'Ext.tree.View'

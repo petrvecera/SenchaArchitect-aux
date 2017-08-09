@@ -1,5 +1,5 @@
 {
-    classAlias: "widget.mySpecialtreepanel",
+    classAlias: "widget.myspecialtreepanel",
     className: "Ext.ux.MySpecialTreePanel", 
     // this specifies if it should iherit configs from some class
     autoName: "MySpecialTreePanel",
