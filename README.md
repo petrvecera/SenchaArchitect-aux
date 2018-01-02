@@ -5,13 +5,13 @@ The aux extension are basically ExtJS Cmd packages with few extra files.
 
 You should follow these guides:
 
-http://docs.sencha.com/architect/4.1/guides/extending_architect/creating_user_extensions.html
-http://docs.sencha.com/architect/4.1/guides/extending_architect/using_user_extensions.html
-http://docs.sencha.com/architect/4.1/guides/reference/user_extension_structure.html
+http://docs.sencha.com/architect/4.2/guides/extending_architect/creating_user_extensions.html
+http://docs.sencha.com/architect/4.2/guides/extending_architect/using_user_extensions.html
+http://docs.sencha.com/architect/4.2/guides/reference/user_extension_structure.html
 http://docs.sencha.com/cmd/guides/cmd_packages/cmd_creating_packages.html
 
 ### Installation 
-- Open SA -> File -> Install user extension -> Select the .aux file
+- Open SA -> File -> Install user extension -> Select the .aux file  
 OR
 - Put the FooExtension folder into `C:\Users\<user>\Documents\Architect\Extensions`
 
